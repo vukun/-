@@ -1,0 +1,3829 @@
+<?xml version="1.0" encoding="GB2312"?>
+<CTOXML>
+
+<DataModels>
+  <TableCount>20</TableCount>
+  <Count>1</Count>
+</DataModels>
+
+
+<DataModels_item1>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>模型1</Name>
+  <CreateDate>2020/7/15 21:41:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DefDbEngine>MYSQL</DefDbEngine>
+  <DbConnectStr>TCtMetaMysqlDb</DbConnectStr>
+  <ConfigStr>DrawerWidth=1500
+DrawerHeight=3304
+WorkAreaColor=16777215
+SelectedColor=-16777203
+DefaultObjectColor=15921906
+DefaultTitleColor=255
+DefaultPKColor=16711935
+DefaultFKColor=16711680
+DefaultBorderColor=12632256
+DefaultLineColor=-16777203
+ShowFieldType=1
+ShowFieldIcon=1
+ShowPhyFieldName=0
+DatabaseEngine=
+GenFKIndexesSQL=0
+</ConfigStr>
+</DataModels_item1>
+
+
+<DataModels_item1_item0>
+  <Count>20</Count>
+</DataModels_item1_item0>
+
+
+<DataModels_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <Name>oms_cart_item</Name>
+  <Memo>购物车表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <GraphDesc>Left=795.65
+Top=1382.56</GraphDesc>
+</DataModels_item1_item0_item1>
+
+
+<DataModels_item1_item0_item1_item0>
+  <Count>22</Count>
+</DataModels_item1_item0_item1_item0>
+
+
+<DataModels_item1_item0_item1_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item1>
+
+
+<DataModels_item1_item0_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>product_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item2>
+
+
+<DataModels_item1_item0_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>product_sku_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=509.00,1120.00
+P2=455.65,1120.00
+P3=455.65,1441.56
+P4=403.65,1441.56
+HookP1=1.00,32.00
+HookP2=260.00,57.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item1_item0_item3>
+
+
+<DataModels_item1_item0_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>member_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>ums_member</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=587.76,1648.00
+P2=644.65,1648.00
+P3=644.65,1455.56
+P4=795.65,1455.56
+HookP1=1.00,17.49
+HookP2=1.00,73.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item1_item0_item4>
+
+
+<DataModels_item1_item0_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>quantity</Name>
+  <Memo>购买数量</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item5>
+
+
+<DataModels_item1_item0_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>price</Name>
+  <Memo>添加到购物车的价格</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item6>
+
+
+<DataModels_item1_item0_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>sp1</Name>
+  <Memo>销售属性1</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item7>
+
+
+<DataModels_item1_item0_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>sp2</Name>
+  <Memo>销售属性2</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item8>
+
+
+<DataModels_item1_item0_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>sp3</Name>
+  <Memo>销售属性3</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item9>
+
+
+<DataModels_item1_item0_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>product_pic</Name>
+  <Memo>商品主图</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item10>
+
+
+<DataModels_item1_item0_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>product_name</Name>
+  <Memo>商品名称</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item11>
+
+
+<DataModels_item1_item0_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>product_sub_title</Name>
+  <Memo>商品副标题（卖点）</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item12>
+
+
+<DataModels_item1_item0_item1_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>product_sku_code</Name>
+  <Memo>商品sku条码</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item13>
+
+
+<DataModels_item1_item0_item1_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>member_nickname</Name>
+  <Memo>会员昵称</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item14>
+
+
+<DataModels_item1_item0_item1_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>create_date</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item15>
+
+
+<DataModels_item1_item0_item1_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>modify_date</Name>
+  <Memo>修改时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item16>
+
+
+<DataModels_item1_item0_item1_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>delete_status</Name>
+  <Memo>是否删除</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DataType>2</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item17>
+
+
+<DataModels_item1_item0_item1_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>product_category_id</Name>
+  <Memo>商品分类</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item18>
+
+
+<DataModels_item1_item0_item1_item0_item19>
+  <CTVER>43543230</CTVER>
+  <ID>19</ID>
+  <Name>product_brand</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item19>
+
+
+<DataModels_item1_item0_item1_item0_item20>
+  <CTVER>43543230</CTVER>
+  <ID>20</ID>
+  <Name>product_sn</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>20</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item20>
+
+
+<DataModels_item1_item0_item1_item0_item21>
+  <CTVER>43543230</CTVER>
+  <ID>21</ID>
+  <Name>product_attr</Name>
+  <Memo>商品销售属性:[{&#34;key&#34;:&#34;颜色&#34;,&#34;value&#34;:&#34;颜色&#34;},{&#34;key&#34;:&#34;容量&#34;,&#34;value&#34;:&#34;4G&#34;}]</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>21</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item21>
+
+
+<DataModels_item1_item0_item1_item0_item22>
+  <CTVER>43543230</CTVER>
+  <ID>22</ID>
+  <Name>is_checked</Name>
+  <Memo>当前商品在购物车列表中商品是否被选中展示</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>22</OrderNo>
+  <DataType>1</DataType>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item1_item0_item22>
+
+
+<DataModels_item1_item0_item2>
+  <CTVER>43543230</CTVER>
+  <Name>oms_order</Name>
+  <Memo>订单表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <GraphDesc>Left=697.00
+Top=1825.00</GraphDesc>
+</DataModels_item1_item0_item2>
+
+
+<DataModels_item1_item0_item2_item0>
+  <Count>44</Count>
+</DataModels_item1_item0_item2_item0>
+
+
+<DataModels_item1_item0_item2_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>订单id</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item1>
+
+
+<DataModels_item1_item0_item2_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>member_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>ums_member</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=587.76,1655.00
+P2=642.00,1655.00
+P3=642.00,1867.00
+P4=697.00,1867.00
+HookP1=148.24,24.49
+HookP2=1.00,42.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=0
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item2_item0_item2>
+
+
+<DataModels_item1_item0_item2_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>coupon_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item3>
+
+
+<DataModels_item1_item0_item2_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>order_sn</Name>
+  <Memo>订单编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item4>
+
+
+<DataModels_item1_item0_item2_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>create_time</Name>
+  <Memo>提交时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item5>
+
+
+<DataModels_item1_item0_item2_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>member_username</Name>
+  <Memo>用户帐号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item6>
+
+
+<DataModels_item1_item0_item2_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>total_amount</Name>
+  <Memo>订单总金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item7>
+
+
+<DataModels_item1_item0_item2_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>pay_amount</Name>
+  <Memo>应付金额（实际支付金额）</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item8>
+
+
+<DataModels_item1_item0_item2_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>freight_amount</Name>
+  <Memo>运费金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item9>
+
+
+<DataModels_item1_item0_item2_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>promotion_amount</Name>
+  <Memo>促销优化金额（促销价、满减、阶梯价）</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item10>
+
+
+<DataModels_item1_item0_item2_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>integration_amount</Name>
+  <Memo>积分抵扣金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item11>
+
+
+<DataModels_item1_item0_item2_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>coupon_amount</Name>
+  <Memo>优惠券抵扣金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item12>
+
+
+<DataModels_item1_item0_item2_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>discount_amount</Name>
+  <Memo>管理员后台调整订单使用的折扣金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item13>
+
+
+<DataModels_item1_item0_item2_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>pay_type</Name>
+  <Memo>支付方式：0-&#62;未支付；1-&#62;支付宝；2-&#62;微信</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item14>
+
+
+<DataModels_item1_item0_item2_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>source_type</Name>
+  <Memo>订单来源：0-&#62;PC订单；1-&#62;app订单</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item15>
+
+
+<DataModels_item1_item0_item2_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>status</Name>
+  <Memo>订单状态：0-&#62;待付款；1-&#62;待发货；2-&#62;已发货；3-&#62;已完成；4-&#62;已关闭；5-&#62;无效订单</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item16>
+
+
+<DataModels_item1_item0_item2_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>order_type</Name>
+  <Memo>订单类型：0-&#62;正常订单；1-&#62;秒杀订单</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item17>
+
+
+<DataModels_item1_item0_item2_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>delivery_company</Name>
+  <Memo>物流公司(配送方式)</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item18>
+
+
+<DataModels_item1_item0_item2_item0_item19>
+  <CTVER>43543230</CTVER>
+  <ID>19</ID>
+  <Name>delivery_sn</Name>
+  <Memo>物流单号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item19>
+
+
+<DataModels_item1_item0_item2_item0_item20>
+  <CTVER>43543230</CTVER>
+  <ID>20</ID>
+  <Name>auto_confirm_day</Name>
+  <Memo>自动确认时间（天）</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>20</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item20>
+
+
+<DataModels_item1_item0_item2_item0_item21>
+  <CTVER>43543230</CTVER>
+  <ID>21</ID>
+  <Name>integration</Name>
+  <Memo>可以获得的积分</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>21</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item21>
+
+
+<DataModels_item1_item0_item2_item0_item22>
+  <CTVER>43543230</CTVER>
+  <ID>22</ID>
+  <Name>growth</Name>
+  <Memo>可以活动的成长值</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>22</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item22>
+
+
+<DataModels_item1_item0_item2_item0_item23>
+  <CTVER>43543230</CTVER>
+  <ID>23</ID>
+  <Name>promotion_info</Name>
+  <Memo>活动信息</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>23</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item23>
+
+
+<DataModels_item1_item0_item2_item0_item24>
+  <CTVER>43543230</CTVER>
+  <ID>24</ID>
+  <Name>bill_type</Name>
+  <Memo>发票类型：0-&#62;不开发票；1-&#62;电子发票；2-&#62;纸质发票</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>24</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item24>
+
+
+<DataModels_item1_item0_item2_item0_item25>
+  <CTVER>43543230</CTVER>
+  <ID>25</ID>
+  <Name>bill_header</Name>
+  <Memo>发票抬头</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>25</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item25>
+
+
+<DataModels_item1_item0_item2_item0_item26>
+  <CTVER>43543230</CTVER>
+  <ID>26</ID>
+  <Name>bill_content</Name>
+  <Memo>发票内容</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>26</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item26>
+
+
+<DataModels_item1_item0_item2_item0_item27>
+  <CTVER>43543230</CTVER>
+  <ID>27</ID>
+  <Name>bill_receiver_phone</Name>
+  <Memo>收票人电话</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>27</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>32</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item27>
+
+
+<DataModels_item1_item0_item2_item0_item28>
+  <CTVER>43543230</CTVER>
+  <ID>28</ID>
+  <Name>bill_receiver_email</Name>
+  <Memo>收票人邮箱</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>28</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item28>
+
+
+<DataModels_item1_item0_item2_item0_item29>
+  <CTVER>43543230</CTVER>
+  <ID>29</ID>
+  <Name>receiver_name</Name>
+  <Memo>收货人姓名</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>29</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item29>
+
+
+<DataModels_item1_item0_item2_item0_item30>
+  <CTVER>43543230</CTVER>
+  <ID>30</ID>
+  <Name>receiver_phone</Name>
+  <Memo>收货人电话</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>30</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>32</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item30>
+
+
+<DataModels_item1_item0_item2_item0_item31>
+  <CTVER>43543230</CTVER>
+  <ID>31</ID>
+  <Name>receiver_post_code</Name>
+  <Memo>收货人邮编</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>31</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>32</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item31>
+
+
+<DataModels_item1_item0_item2_item0_item32>
+  <CTVER>43543230</CTVER>
+  <ID>32</ID>
+  <Name>receiver_province</Name>
+  <Memo>省份/直辖市</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>32</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>32</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item32>
+
+
+<DataModels_item1_item0_item2_item0_item33>
+  <CTVER>43543230</CTVER>
+  <ID>33</ID>
+  <Name>receiver_city</Name>
+  <Memo>城市</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>33</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>32</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item33>
+
+
+<DataModels_item1_item0_item2_item0_item34>
+  <CTVER>43543230</CTVER>
+  <ID>34</ID>
+  <Name>receiver_region</Name>
+  <Memo>区</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>34</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>32</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item34>
+
+
+<DataModels_item1_item0_item2_item0_item35>
+  <CTVER>43543230</CTVER>
+  <ID>35</ID>
+  <Name>receiver_detail_address</Name>
+  <Memo>详细地址</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>35</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item35>
+
+
+<DataModels_item1_item0_item2_item0_item36>
+  <CTVER>43543230</CTVER>
+  <ID>36</ID>
+  <Name>note</Name>
+  <Memo>订单备注</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>36</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item36>
+
+
+<DataModels_item1_item0_item2_item0_item37>
+  <CTVER>43543230</CTVER>
+  <ID>37</ID>
+  <Name>confirm_status</Name>
+  <Memo>确认收货状态：0-&#62;未确认；1-&#62;已确认</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>37</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item37>
+
+
+<DataModels_item1_item0_item2_item0_item38>
+  <CTVER>43543230</CTVER>
+  <ID>38</ID>
+  <Name>delete_status</Name>
+  <Memo>删除状态：0-&#62;未删除；1-&#62;已删除</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>38</OrderNo>
+  <DataType>2</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item38>
+
+
+<DataModels_item1_item0_item2_item0_item39>
+  <CTVER>43543230</CTVER>
+  <ID>39</ID>
+  <Name>use_integration</Name>
+  <Memo>下单时使用的积分</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>39</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item39>
+
+
+<DataModels_item1_item0_item2_item0_item40>
+  <CTVER>43543230</CTVER>
+  <ID>40</ID>
+  <Name>payment_time</Name>
+  <Memo>支付时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>40</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item40>
+
+
+<DataModels_item1_item0_item2_item0_item41>
+  <CTVER>43543230</CTVER>
+  <ID>41</ID>
+  <Name>delivery_time</Name>
+  <Memo>发货时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>41</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item41>
+
+
+<DataModels_item1_item0_item2_item0_item42>
+  <CTVER>43543230</CTVER>
+  <ID>42</ID>
+  <Name>receive_time</Name>
+  <Memo>确认收货时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>42</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item42>
+
+
+<DataModels_item1_item0_item2_item0_item43>
+  <CTVER>43543230</CTVER>
+  <ID>43</ID>
+  <Name>comment_time</Name>
+  <Memo>评价时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>43</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item43>
+
+
+<DataModels_item1_item0_item2_item0_item44>
+  <CTVER>43543230</CTVER>
+  <ID>44</ID>
+  <Name>modify_time</Name>
+  <Memo>修改时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>44</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item2_item0_item44>
+
+
+<DataModels_item1_item0_item3>
+  <CTVER>43543230</CTVER>
+  <Name>oms_order_item</Name>
+  <Memo>订单中所包含的商品</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <GraphDesc>Left=1081.00
+Top=1917.00</GraphDesc>
+</DataModels_item1_item0_item3>
+
+
+<DataModels_item1_item0_item3_item0>
+  <Count>24</Count>
+</DataModels_item1_item0_item3_item0>
+
+
+<DataModels_item1_item0_item3_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item1>
+
+
+<DataModels_item1_item0_item3_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>order_id</Name>
+  <Memo>订单id</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>oms_order</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=985.00,1853.00
+P2=1025.00,1853.00
+P3=1025.00,1951.00
+P4=1081.00,1951.00
+HookP1=144.00,28.00
+HookP2=1.00,34.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item3_item0_item2>
+
+
+<DataModels_item1_item0_item3_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>order_sn</Name>
+  <Memo>订单编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item3>
+
+
+<DataModels_item1_item0_item3_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>product_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item4>
+
+
+<DataModels_item1_item0_item3_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>product_pic</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item5>
+
+
+<DataModels_item1_item0_item3_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>product_name</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item6>
+
+
+<DataModels_item1_item0_item3_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>product_brand</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item7>
+
+
+<DataModels_item1_item0_item3_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>product_sn</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item8>
+
+
+<DataModels_item1_item0_item3_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>product_price</Name>
+  <Memo>销售价格</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item9>
+
+
+<DataModels_item1_item0_item3_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>product_quantity</Name>
+  <Memo>购买数量</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item10>
+
+
+<DataModels_item1_item0_item3_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>product_sku_id</Name>
+  <Memo>商品sku编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item11>
+
+
+<DataModels_item1_item0_item3_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>product_sku_code</Name>
+  <Memo>商品sku条码</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item12>
+
+
+<DataModels_item1_item0_item3_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>product_category_id</Name>
+  <Memo>商品分类id</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item13>
+
+
+<DataModels_item1_item0_item3_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>sp1</Name>
+  <Memo>商品的销售属性</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item14>
+
+
+<DataModels_item1_item0_item3_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>sp2</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item15>
+
+
+<DataModels_item1_item0_item3_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>sp3</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item16>
+
+
+<DataModels_item1_item0_item3_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>promotion_name</Name>
+  <Memo>商品促销名称</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item17>
+
+
+<DataModels_item1_item0_item3_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>promotion_amount</Name>
+  <Memo>商品促销分解金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item18>
+
+
+<DataModels_item1_item0_item3_item0_item19>
+  <CTVER>43543230</CTVER>
+  <ID>19</ID>
+  <Name>coupon_amount</Name>
+  <Memo>优惠券优惠分解金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item19>
+
+
+<DataModels_item1_item0_item3_item0_item20>
+  <CTVER>43543230</CTVER>
+  <ID>20</ID>
+  <Name>integration_amount</Name>
+  <Memo>积分优惠分解金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>20</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item20>
+
+
+<DataModels_item1_item0_item3_item0_item21>
+  <CTVER>43543230</CTVER>
+  <ID>21</ID>
+  <Name>real_amount</Name>
+  <Memo>该商品经过优惠后的分解金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>21</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item21>
+
+
+<DataModels_item1_item0_item3_item0_item22>
+  <CTVER>43543230</CTVER>
+  <ID>22</ID>
+  <Name>gift_integration</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>22</OrderNo>
+  <DataType>2</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item22>
+
+
+<DataModels_item1_item0_item3_item0_item23>
+  <CTVER>43543230</CTVER>
+  <ID>23</ID>
+  <Name>gift_growth</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>23</OrderNo>
+  <DataType>2</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item23>
+
+
+<DataModels_item1_item0_item3_item0_item24>
+  <CTVER>43543230</CTVER>
+  <ID>24</ID>
+  <Name>product_attr</Name>
+  <Memo>商品销售属性:[{&#34;key&#34;:&#34;颜色&#34;,&#34;value&#34;:&#34;颜色&#34;},{&#34;key&#34;:&#34;容量&#34;,&#34;value&#34;:&#34;4G&#34;}]</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>24</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item3_item0_item24>
+
+
+<DataModels_item1_item0_item4>
+  <CTVER>43543230</CTVER>
+  <Name>payment_info</Name>
+  <Memo>支付信息表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <GraphDesc>Left=1448.00
+Top=1790.00
+BkColor=16777215</GraphDesc>
+</DataModels_item1_item0_item4>
+
+
+<DataModels_item1_item0_item4_item0>
+  <Count>11</Count>
+</DataModels_item1_item0_item4_item0>
+
+
+<DataModels_item1_item0_item4_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item1>
+
+
+<DataModels_item1_item0_item4_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>order_sn</Name>
+  <Memo>对外业务编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>255</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item2>
+
+
+<DataModels_item1_item0_item4_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>order_id</Name>
+  <Memo>订单编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>oms_order</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=985.00,1852.00
+P2=1087.00,1852.00
+P3=1087.00,1849.00
+P4=1448.00,1849.00
+HookP1=152.00,27.00
+HookP2=1.00,59.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item4_item0_item3>
+
+
+<DataModels_item1_item0_item4_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>alipay_trade_no</Name>
+  <Memo>支付宝交易编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>50</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item4>
+
+
+<DataModels_item1_item0_item4_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>total_amount</Name>
+  <Memo>支付金额</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>12</DataLength>
+  <DataScale>2</DataScale>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item5>
+
+
+<DataModels_item1_item0_item4_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>subject</Name>
+  <Memo>交易内容</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item6>
+
+
+<DataModels_item1_item0_item4_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>payment_status</Name>
+  <Memo>支付状态</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item7>
+
+
+<DataModels_item1_item0_item4_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>create_time</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item8>
+
+
+<DataModels_item1_item0_item4_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>confirm_time</Name>
+  <Memo>创建时间</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item9>
+
+
+<DataModels_item1_item0_item4_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>callback_content</Name>
+  <Memo>回调信息</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item10>
+
+
+<DataModels_item1_item0_item4_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>callback_time</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item4_item0_item11>
+
+
+<DataModels_item1_item0_item5>
+  <CTVER>43543230</CTVER>
+  <Name>pms_base_attr_info</Name>
+  <Memo>属性表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <GraphDesc>Left=71.00
+Top=287.00
+BkColor=8454016</GraphDesc>
+</DataModels_item1_item0_item5>
+
+
+<DataModels_item1_item0_item5_item0>
+  <Count>4</Count>
+</DataModels_item1_item0_item5_item0>
+
+
+<DataModels_item1_item0_item5_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item1>
+
+
+<DataModels_item1_item0_item5_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>attr_name</Name>
+  <Memo>属性名称</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item2>
+
+
+<DataModels_item1_item0_item5_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>catalog3_id</Name>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_catalog3</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=454.00,270.00
+P2=302.00,270.00
+P3=302.00,346.00
+P4=275.00,346.00
+HookP1=110.00,30.00
+HookP2=204.00,59.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item5_item0_item3>
+
+
+<DataModels_item1_item0_item5_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>is_enabled</Name>
+  <Memo>启用：1 停用：0</Memo>
+  <CreateDate>2020/7/15 21:49:01</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item5_item0_item4>
+
+
+<DataModels_item1_item0_item6>
+  <CTVER>43543230</CTVER>
+  <Name>pms_base_attr_value</Name>
+  <Memo>属性值表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <GraphDesc>Left=74.00
+Top=389.00
+BkColor=8454016</GraphDesc>
+</DataModels_item1_item0_item6>
+
+
+<DataModels_item1_item0_item6_item0>
+  <Count>4</Count>
+</DataModels_item1_item0_item6_item0>
+
+
+<DataModels_item1_item0_item6_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item1>
+
+
+<DataModels_item1_item0_item6_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>value_name</Name>
+  <Memo>属性值名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item2>
+
+
+<DataModels_item1_item0_item6_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>attr_id</Name>
+  <Memo>属性id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_attr_info</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=71.00,318.00
+P2=28.00,318.00
+P3=28.00,448.00
+P4=74.00,448.00
+HookP1=102.00,31.00
+HookP2=1.00,59.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item6_item0_item3>
+
+
+<DataModels_item1_item0_item6_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>is_enabled</Name>
+  <Memo>启用：1 停用：0 1</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item6_item0_item4>
+
+
+<DataModels_item1_item0_item7>
+  <CTVER>43543230</CTVER>
+  <Name>pms_base_catalog1</Name>
+  <Memo>一级分类表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <GraphDesc>Left=488.00
+Top=57.00
+BkColor=16777088</GraphDesc>
+</DataModels_item1_item0_item7>
+
+
+<DataModels_item1_item0_item7_item0>
+  <Count>2</Count>
+</DataModels_item1_item0_item7_item0>
+
+
+<DataModels_item1_item0_item7_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item1>
+
+
+<DataModels_item1_item0_item7_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>name</Name>
+  <Memo>分类名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item7_item0_item2>
+
+
+<DataModels_item1_item0_item8>
+  <CTVER>43543230</CTVER>
+  <Name>pms_base_catalog2</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <GraphDesc>Left=462.00
+Top=146.00
+BkColor=16777088</GraphDesc>
+</DataModels_item1_item0_item8>
+
+
+<DataModels_item1_item0_item8_item0>
+  <Count>3</Count>
+</DataModels_item1_item0_item8_item0>
+
+
+<DataModels_item1_item0_item8_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item1>
+
+
+<DataModels_item1_item0_item8_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>name</Name>
+  <Memo>二级分类名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item8_item0_item2>
+
+
+<DataModels_item1_item0_item8_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>catalog1_id</Name>
+  <Memo>一级分类编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_catalog1</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=488.00,84.00
+P2=425.00,84.00
+P3=425.00,206.00
+P4=462.00,206.00
+HookP1=1.00,27.00
+HookP2=1.00,60.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item8_item0_item3>
+
+
+<DataModels_item1_item0_item9>
+  <CTVER>43543230</CTVER>
+  <Name>pms_base_catalog3</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <GraphDesc>Left=454.00
+Top=240.00
+BkColor=16777088</GraphDesc>
+</DataModels_item1_item0_item9>
+
+
+<DataModels_item1_item0_item9_item0>
+  <Count>3</Count>
+</DataModels_item1_item0_item9_item0>
+
+
+<DataModels_item1_item0_item9_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item1>
+
+
+<DataModels_item1_item0_item9_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>name</Name>
+  <Memo>三级分类名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item9_item0_item2>
+
+
+<DataModels_item1_item0_item9_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>catalog2_id</Name>
+  <Memo>二级分类编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_catalog2</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=652.00,173.00
+P2=691.00,173.00
+P3=691.00,295.00
+P4=658.00,295.00
+HookP1=1.00,27.00
+HookP2=1.00,55.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item9_item0_item3>
+
+
+<DataModels_item1_item0_item10>
+  <CTVER>43543230</CTVER>
+  <Name>pms_base_sale_attr</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <GraphDesc>Left=286.00
+Top=542.00</GraphDesc>
+</DataModels_item1_item0_item10>
+
+
+<DataModels_item1_item0_item10_item0>
+  <Count>2</Count>
+</DataModels_item1_item0_item10_item0>
+
+
+<DataModels_item1_item0_item10_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item1>
+
+
+<DataModels_item1_item0_item10_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>name</Name>
+  <Memo>销售属性名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>0</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item10_item0_item2>
+
+
+<DataModels_item1_item0_item11>
+  <CTVER>43543230</CTVER>
+  <Name>pms_product_image</Name>
+  <Memo>商品图片表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <GraphDesc>Left=879.00
+Top=467.00
+BkColor=8454143</GraphDesc>
+</DataModels_item1_item0_item11>
+
+
+<DataModels_item1_item0_item11_item0>
+  <Count>4</Count>
+</DataModels_item1_item0_item11_item0>
+
+
+<DataModels_item1_item0_item11_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item1>
+
+
+<DataModels_item1_item0_item11_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>product_id</Name>
+  <Memo>商品id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_product_info</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=772.00,444.00
+P2=828.00,444.00
+P3=828.00,510.00
+P4=879.00,510.00
+HookP1=114.00,26.00
+HookP2=1.00,43.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item11_item0_item2>
+
+
+<DataModels_item1_item0_item11_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>img_name</Name>
+  <Memo>图片名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item3>
+
+
+<DataModels_item1_item0_item11_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>img_url</Name>
+  <Memo>图片路径</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item11_item0_item4>
+
+
+<DataModels_item1_item0_item12>
+  <CTVER>43543230</CTVER>
+  <Name>pms_product_info</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <GraphDesc>Left=561.00
+Top=418.00
+BkColor=8454143</GraphDesc>
+</DataModels_item1_item0_item12>
+
+
+<DataModels_item1_item0_item12_item0>
+  <Count>5</Count>
+</DataModels_item1_item0_item12_item0>
+
+
+<DataModels_item1_item0_item12_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>商品id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item1>
+
+
+<DataModels_item1_item0_item12_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>product_name</Name>
+  <Memo>商品名称</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item2>
+
+
+<DataModels_item1_item0_item12_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>description</Name>
+  <Memo>商品描述(后台简述）</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item3>
+
+
+<DataModels_item1_item0_item12_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>catalog3_id</Name>
+  <Memo>三级分类id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_catalog3</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=658.00,268.00
+P2=845.00,268.00
+P3=845.00,488.00
+P4=772.00,488.00
+HookP1=1.00,28.00
+HookP2=1.00,70.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item12_item0_item4>
+
+
+<DataModels_item1_item0_item12_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>tm_id</Name>
+  <Memo>品牌id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item12_item0_item5>
+
+
+<DataModels_item1_item0_item13>
+  <CTVER>43543230</CTVER>
+  <Name>pms_product_sale_attr</Name>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <GraphDesc>Left=260.00
+Top=612.00
+BkColor=12632256</GraphDesc>
+</DataModels_item1_item0_item13>
+
+
+<DataModels_item1_item0_item13_item0>
+  <Count>4</Count>
+</DataModels_item1_item0_item13_item0>
+
+
+<DataModels_item1_item0_item13_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item1>
+
+
+<DataModels_item1_item0_item13_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>product_id</Name>
+  <Memo>商品id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_product_info</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=561.00,444.00
+P2=523.00,444.00
+P3=523.00,655.00
+P4=485.00,655.00
+HookP1=129.00,26.00
+HookP2=225.00,43.00
+Mod_OP1=1
+Mod_OP2=0
+Mod_CP=0
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item13_item0_item2>
+
+
+<DataModels_item1_item0_item13_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>sale_attr_id</Name>
+  <Memo>销售属性id</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_sale_attr</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=286.00,569.00
+P2=180.00,569.00
+P3=180.00,669.00
+P4=260.00,669.00
+HookP1=1.00,27.00
+HookP2=1.00,57.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item13_item0_item3>
+
+
+<DataModels_item1_item0_item13_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>sale_attr_name</Name>
+  <Memo>销售属性名称(冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:02</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item13_item0_item4>
+
+
+<DataModels_item1_item0_item14>
+  <CTVER>43543230</CTVER>
+  <Name>pms_product_sale_attr_value</Name>
+  <Memo>spu销售属性值</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <GraphDesc>Left=245.00
+Top=705.00
+BkColor=12632256</GraphDesc>
+</DataModels_item1_item0_item14>
+
+
+<DataModels_item1_item0_item14_item0>
+  <Count>4</Count>
+</DataModels_item1_item0_item14_item0>
+
+
+<DataModels_item1_item0_item14_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item14_item0_item1>
+
+
+<DataModels_item1_item0_item14_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>product_id</Name>
+  <Memo>商品id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item14_item0_item2>
+
+
+<DataModels_item1_item0_item14_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>sale_attr_id</Name>
+  <Memo>销售属性id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_product_sale_attr</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=260.00,639.00
+P2=199.00,639.00
+P3=199.00,766.00
+P4=245.00,766.00
+HookP1=1.00,27.00
+HookP2=1.00,61.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item14_item0_item3>
+
+
+<DataModels_item1_item0_item14_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>sale_attr_value_name</Name>
+  <Memo>销售属性值名称</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item14_item0_item4>
+
+
+<DataModels_item1_item0_item15>
+  <CTVER>43543230</CTVER>
+  <Name>pms_sku_attr_value</Name>
+  <Memo>sku平台属性值关联表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <GraphDesc>Left=69.00
+Top=1037.00</GraphDesc>
+</DataModels_item1_item0_item15>
+
+
+<DataModels_item1_item0_item15_item0>
+  <Count>4</Count>
+</DataModels_item1_item0_item15_item0>
+
+
+<DataModels_item1_item0_item15_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item15_item0_item1>
+
+
+<DataModels_item1_item0_item15_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>attr_id</Name>
+  <Memo>属性id（冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_attr_info</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=71.00,314.00
+P2=13.00,314.00
+P3=13.00,1078.00
+P4=69.00,1078.00
+HookP1=1.00,27.00
+HookP2=1.00,41.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item15_item0_item2>
+
+
+<DataModels_item1_item0_item15_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>value_id</Name>
+  <Memo>属性值id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_attr_value</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=74.00,416.00
+P2=37.00,416.00
+P3=37.00,1095.00
+P4=69.00,1095.00
+HookP1=1.00,27.00
+HookP2=1.00,58.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item15_item0_item3>
+
+
+<DataModels_item1_item0_item15_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>sku_id</Name>
+  <Memo>skuid</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_sku_info</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=464.00,1116.00
+P2=358.00,1116.00
+P3=358.00,1116.00
+P4=252.00,1116.00
+HookP1=140.00,27.00
+HookP2=183.00,79.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=0
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item15_item0_item4>
+
+
+<DataModels_item1_item0_item16>
+  <CTVER>43543230</CTVER>
+  <Name>pms_sku_image</Name>
+  <Memo>库存单元图片表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <GraphDesc>Left=850.00
+Top=1173.00
+BkColor=16744576</GraphDesc>
+</DataModels_item1_item0_item16>
+
+
+<DataModels_item1_item0_item16_item0>
+  <Count>6</Count>
+</DataModels_item1_item0_item16_item0>
+
+
+<DataModels_item1_item0_item16_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>编号</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item16_item0_item1>
+
+
+<DataModels_item1_item0_item16_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>sku_id</Name>
+  <Memo>商品id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_sku_info</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=696.00,1112.00
+P2=763.00,1112.00
+P3=763.00,1214.00
+P4=850.00,1214.00
+HookP1=116.00,23.00
+HookP2=1.00,41.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item16_item0_item2>
+
+
+<DataModels_item1_item0_item16_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>img_name</Name>
+  <Memo>图片名称（冗余）</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item16_item0_item3>
+
+
+<DataModels_item1_item0_item16_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>img_url</Name>
+  <Memo>图片路径(冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item16_item0_item4>
+
+
+<DataModels_item1_item0_item16_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>spu_img_id</Name>
+  <Memo>商品图片id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_product_image</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=1076.00,518.00
+P2=1133.00,518.00
+P3=1133.00,1258.00
+P4=1047.00,1258.00
+HookP1=13.00,51.00
+HookP2=1.00,85.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item16_item0_item5>
+
+
+<DataModels_item1_item0_item16_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>is_default</Name>
+  <Memo>是否默认</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <DefaultValue>0</DefaultValue>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item16_item0_item6>
+
+
+<DataModels_item1_item0_item17>
+  <CTVER>43543230</CTVER>
+  <Name>pms_sku_info</Name>
+  <Memo>库存单元表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <GraphDesc>Left=464.00
+Top=1089.00
+BkColor=16744576</GraphDesc>
+</DataModels_item1_item0_item17>
+
+
+<DataModels_item1_item0_item17_item0>
+  <Count>9</Count>
+</DataModels_item1_item0_item17_item0>
+
+
+<DataModels_item1_item0_item17_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>库存id(itemID)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_sku_sale_attr_value</RelateTable>
+  <RelateField>sku_id</RelateField>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=405.00,989.80
+P2=405.00,1114.00
+P3=405.00,1114.00
+P4=464.00,1114.00
+HookP1=131.12,43.20
+HookP2=1.00,25.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=0
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item17_item0_item1>
+
+
+<DataModels_item1_item0_item17_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>product_id</Name>
+  <Memo>商品id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_base_catalog3</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=658.00,263.00
+P2=1102.00,263.00
+P3=1102.00,1130.00
+P4=696.00,1130.00
+HookP1=1.00,23.00
+HookP2=1.00,41.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item17_item0_item2>
+
+
+<DataModels_item1_item0_item17_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>price</Name>
+  <Memo>价格</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item3>
+
+
+<DataModels_item1_item0_item17_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>sku_name</Name>
+  <Memo>sku名称</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <IndexType>2</IndexType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item4>
+
+
+<DataModels_item1_item0_item17_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>sku_desc</Name>
+  <Memo>商品规格描述</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>2000</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item5>
+
+
+<DataModels_item1_item0_item17_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>weight</Name>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>3</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item6>
+
+
+<DataModels_item1_item0_item17_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>tm_id</Name>
+  <Memo>品牌(冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item7>
+
+
+<DataModels_item1_item0_item17_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>catalog3_id</Name>
+  <Memo>三级分类id（冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item8>
+
+
+<DataModels_item1_item0_item17_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>sku_default_img</Name>
+  <Memo>默认显示图片(冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item17_item0_item9>
+
+
+<DataModels_item1_item0_item18>
+  <CTVER>43543230</CTVER>
+  <Name>pms_sku_sale_attr_value</Name>
+  <Memo>sku销售属性值</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <GraphDesc>Left=273.88
+Top=871.80</GraphDesc>
+</DataModels_item1_item0_item18>
+
+
+<DataModels_item1_item0_item18_item0>
+  <Count>6</Count>
+</DataModels_item1_item0_item18_item0>
+
+
+<DataModels_item1_item0_item18_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <Memo>id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item18_item0_item1>
+
+
+<DataModels_item1_item0_item18_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>sku_id</Name>
+  <Memo>库存单元id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item18_item0_item2>
+
+
+<DataModels_item1_item0_item18_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>sale_attr_id</Name>
+  <Memo>销售属性id（冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_product_sale_attr</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=485.00,679.00
+P2=569.00,679.00
+P3=569.00,929.80
+P4=540.88,929.80
+HookP1=1.00,67.00
+HookP2=1.00,58.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item18_item0_item3>
+
+
+<DataModels_item1_item0_item18_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>sale_attr_value_id</Name>
+  <Memo>销售属性值id</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>pms_product_sale_attr_value</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=245.00,728.00
+P2=217.00,728.00
+P3=217.00,948.80
+P4=273.88,948.80
+HookP1=1.00,23.00
+HookP2=1.00,77.00
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=1
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item18_item0_item4>
+
+
+<DataModels_item1_item0_item18_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>sale_attr_name</Name>
+  <Memo>销售属性名称(冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item18_item0_item5>
+
+
+<DataModels_item1_item0_item18_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>sale_attr_value_name</Name>
+  <Memo>销售属性值名称(冗余)</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item18_item0_item6>
+
+
+<DataModels_item1_item0_item19>
+  <CTVER>43543230</CTVER>
+  <Name>ums_member</Name>
+  <Memo>会员表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <GraphDesc>Left=306.76
+Top=1630.51</GraphDesc>
+</DataModels_item1_item0_item19>
+
+
+<DataModels_item1_item0_item19_item0>
+  <Count>22</Count>
+</DataModels_item1_item0_item19_item0>
+
+
+<DataModels_item1_item0_item19_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item1>
+
+
+<DataModels_item1_item0_item19_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>member_level_id</Name>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item2>
+
+
+<DataModels_item1_item0_item19_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>username</Name>
+  <Memo>用户名</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <IndexType>1</IndexType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item3>
+
+
+<DataModels_item1_item0_item19_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>password</Name>
+  <Memo>密码</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item4>
+
+
+<DataModels_item1_item0_item19_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>nickname</Name>
+  <Memo>昵称</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item5>
+
+
+<DataModels_item1_item0_item19_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>phone</Name>
+  <Memo>手机号码</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <IndexType>1</IndexType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item6>
+
+
+<DataModels_item1_item0_item19_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>status</Name>
+  <Memo>帐号启用状态:0-&#62;禁用；1-&#62;启用</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>2</DataType>
+  <DefaultValue>1</DefaultValue>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item7>
+
+
+<DataModels_item1_item0_item19_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>create_time</Name>
+  <Memo>注册时间</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>19</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item8>
+
+
+<DataModels_item1_item0_item19_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>icon</Name>
+  <Memo>头像</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>500</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item9>
+
+
+<DataModels_item1_item0_item19_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>gender</Name>
+  <Memo>性别：0-&#62;未知；1-&#62;男；2-&#62;女</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item10>
+
+
+<DataModels_item1_item0_item19_item0_item11>
+  <CTVER>43543230</CTVER>
+  <ID>11</ID>
+  <Name>birthday</Name>
+  <Memo>生日</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>11</OrderNo>
+  <DataType>4</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>10</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item11>
+
+
+<DataModels_item1_item0_item19_item0_item12>
+  <CTVER>43543230</CTVER>
+  <ID>12</ID>
+  <Name>city</Name>
+  <Memo>所做城市</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>12</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item12>
+
+
+<DataModels_item1_item0_item19_item0_item13>
+  <CTVER>43543230</CTVER>
+  <ID>13</ID>
+  <Name>job</Name>
+  <Memo>职业</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>13</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item13>
+
+
+<DataModels_item1_item0_item19_item0_item14>
+  <CTVER>43543230</CTVER>
+  <ID>14</ID>
+  <Name>personalized_signature</Name>
+  <Memo>个性签名</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>14</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>200</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item14>
+
+
+<DataModels_item1_item0_item19_item0_item15>
+  <CTVER>43543230</CTVER>
+  <ID>15</ID>
+  <Name>source_uid</Name>
+  <Memo>第三方网站所给的uid</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>15</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item15>
+
+
+<DataModels_item1_item0_item19_item0_item16>
+  <CTVER>43543230</CTVER>
+  <ID>16</ID>
+  <Name>source_type</Name>
+  <Memo>用户来源：1本网站用户，2微博用户</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>16</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item16>
+
+
+<DataModels_item1_item0_item19_item0_item17>
+  <CTVER>43543230</CTVER>
+  <ID>17</ID>
+  <Name>integration</Name>
+  <Memo>积分</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>17</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item17>
+
+
+<DataModels_item1_item0_item19_item0_item18>
+  <CTVER>43543230</CTVER>
+  <ID>18</ID>
+  <Name>growth</Name>
+  <Memo>成长值</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>18</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item18>
+
+
+<DataModels_item1_item0_item19_item0_item19>
+  <CTVER>43543230</CTVER>
+  <ID>19</ID>
+  <Name>luckey_count</Name>
+  <Memo>剩余抽奖次数</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>19</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item19>
+
+
+<DataModels_item1_item0_item19_item0_item20>
+  <CTVER>43543230</CTVER>
+  <ID>20</ID>
+  <Name>history_integration</Name>
+  <Memo>历史积分数量</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>20</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item20>
+
+
+<DataModels_item1_item0_item19_item0_item21>
+  <CTVER>43543230</CTVER>
+  <ID>21</ID>
+  <Name>access_token</Name>
+  <Memo>其他网站来源为用户颁发的授权认证</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>21</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>255</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item21>
+
+
+<DataModels_item1_item0_item19_item0_item22>
+  <CTVER>43543230</CTVER>
+  <ID>22</ID>
+  <Name>access_code</Name>
+  <Memo>第三方授权码</Memo>
+  <CreateDate>2020/7/15 21:49:03</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>22</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>255</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item19_item0_item22>
+
+
+<DataModels_item1_item0_item20>
+  <CTVER>43543230</CTVER>
+  <Name>ums_member_receive_address</Name>
+  <Memo>会员收货地址表</Memo>
+  <CreateDate>1899/12/30</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>20</OrderNo>
+  <GraphDesc>Left=29.25
+Top=1665.16</GraphDesc>
+</DataModels_item1_item0_item20>
+
+
+<DataModels_item1_item0_item20_item0>
+  <Count>10</Count>
+</DataModels_item1_item0_item20_item0>
+
+
+<DataModels_item1_item0_item20_item0_item1>
+  <CTVER>43543230</CTVER>
+  <ID>1</ID>
+  <Name>id</Name>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>1</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>1</KeyFieldType>
+  <DefaultValue>{auto_increment}</DefaultValue>
+  <Nullable>0</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item1>
+
+
+<DataModels_item1_item0_item20_item0_item2>
+  <CTVER>43543230</CTVER>
+  <ID>2</ID>
+  <Name>member_id</Name>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>2</OrderNo>
+  <DataType>2</DataType>
+  <KeyFieldType>3</KeyFieldType>
+  <RelateTable>ums_member</RelateTable>
+  <RelateField>id</RelateField>
+  <Nullable>1</Nullable>
+  <DataLength>20</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+  <GraphDesc>P1=306.76,1657.00
+P2=281.00,1657.00
+P3=281.00,1712.00
+P4=254.25,1712.00
+HookP1=140.24,26.49
+HookP2=1.00,46.84
+Mod_OP1=1
+Mod_OP2=1
+Mod_CP=0
+Horz1=1
+Horz2=1</GraphDesc>
+</DataModels_item1_item0_item20_item0_item2>
+
+
+<DataModels_item1_item0_item20_item0_item3>
+  <CTVER>43543230</CTVER>
+  <ID>3</ID>
+  <Name>name</Name>
+  <Memo>收货人名称</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>3</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item3>
+
+
+<DataModels_item1_item0_item20_item0_item4>
+  <CTVER>43543230</CTVER>
+  <ID>4</ID>
+  <Name>phone_number</Name>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>4</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>64</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item4>
+
+
+<DataModels_item1_item0_item20_item0_item5>
+  <CTVER>43543230</CTVER>
+  <ID>5</ID>
+  <Name>default_status</Name>
+  <Memo>是否为默认</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>5</OrderNo>
+  <DataType>2</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>1</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item5>
+
+
+<DataModels_item1_item0_item20_item0_item6>
+  <CTVER>43543230</CTVER>
+  <ID>6</ID>
+  <Name>post_code</Name>
+  <Memo>邮政编码</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>6</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item6>
+
+
+<DataModels_item1_item0_item20_item0_item7>
+  <CTVER>43543230</CTVER>
+  <ID>7</ID>
+  <Name>province</Name>
+  <Memo>省份/直辖市</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>7</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item7>
+
+
+<DataModels_item1_item0_item20_item0_item8>
+  <CTVER>43543230</CTVER>
+  <ID>8</ID>
+  <Name>city</Name>
+  <Memo>城市</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>8</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item8>
+
+
+<DataModels_item1_item0_item20_item0_item9>
+  <CTVER>43543230</CTVER>
+  <ID>9</ID>
+  <Name>region</Name>
+  <Memo>区</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>9</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>100</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item9>
+
+
+<DataModels_item1_item0_item20_item0_item10>
+  <CTVER>43543230</CTVER>
+  <ID>10</ID>
+  <Name>detail_address</Name>
+  <Memo>详细地址(街道)</Memo>
+  <CreateDate>2020/7/15 21:49:04</CreateDate>
+  <ModifyDate>1899/12/30</ModifyDate>
+  <OrderNo>10</OrderNo>
+  <DataType>1</DataType>
+  <Nullable>1</Nullable>
+  <DataLength>128</DataLength>
+  <EditorReadOnly>0</EditorReadOnly>
+  <EditorEnabled>0</EditorEnabled>
+</DataModels_item1_item0_item20_item0_item10>
+
+
+</CTOXML>
