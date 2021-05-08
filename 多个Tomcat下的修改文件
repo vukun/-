@@ -1,0 +1,30 @@
+1、需要在conf/Server.xml中修改
+
+<Host name="localhost"  appBase="webapps"
+            unpackWARs="true" autoDeploy="true">
+                <Context path="/" docBase="/opt/tomcat_1/webapps/gmall-user-web" debug="0" reloadable="false"/>   ！！！在这个位置，添加项目相对路径地址。
+        <!-- SingleSignOn valve, share authentication between web applications
+             Documentation at: /docs/config/valve.html -->
+        <!--
+        <Valve className="org.apache.catalina.authenticator.SingleSignOn" />
+        -->
+
+        <!-- Access log processes all example.
+             Documentation at: /docs/config/valve.html
+             Note: The pattern used is equivalent to using pattern="common" -->
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+               prefix="localhost_access_log" suffix=".txt"
+               pattern="%h %l %u %t &quot;%r&quot; %s %b" />
+
+      </Host>
+      
+ 2、修改对应的Tomcat对外访问端口。
+ 
+ <Connector port="8083" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+               
+ 3、修改对应的Tomcat系统服务端口
+ 
+ <Server port="8033" shutdown="SHUTDOWN">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
