@@ -1,0 +1,13 @@
+1、下载Tomcat安装包到/opt文件夹下。
+
+2、解压安装包并简洁命名为 tomcat。
+
+3、在/etc/profile系统文件中添加环境变量。
+   
+   export CATALINA_HOME=/opt/tomcat
+   
+4、在tomcat/bin文件夹下执行命令： ./start.sh启动tomcat。
+
+5、浏览器访问服务器是否成功。
+   
+    服务器ip:8080/
