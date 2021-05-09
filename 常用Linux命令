@@ -1,0 +1,2 @@
+1、--Linux下卸载软件、
+     命令：sudo yum autoremove 软件名称
