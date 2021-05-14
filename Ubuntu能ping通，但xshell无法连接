@@ -1,0 +1,20 @@
+现象描述：Ubuntu能Ping通主机，主机也能ping通虚拟机。而且，虚拟机也能上网。只是xshell不能连接。
+
+解决方案： 
+
+一、使用管理员身份 设置防火墙(重新关闭防火墙)。 
+
+   先查看一下防火墙状态：sudo ufw status
+   状态为：不活动
+   
+   虽然防火墙是关着的，依旧重新停一下：sudo ufw disable
+   
+   然后开放22端口。(允许所有的外部IP访问本机的22/tcp(ssh)端口) ：sudo ufw allow 22
+   此时，显示防火墙规则已更新。规则已更新。(v6)
+   
+二、安装SSH服务并启动(安装SSH服务)
+
+   ubuntu不会默认安装ssh-server。所以需要先进行ssh服务的安装：sudo apt-get install openssh-server
+   查看安装结果：ps -e |grep ssh
+   
+   发现sshd已经启动，再次使用xshell即可成功连接。
