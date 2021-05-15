@@ -1,0 +1,52 @@
+一、执行以下代码进行下载并配置。(执行顺序可能需要变通，如果不行就接续向下执行)
+
+    (1)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/gcc-3.4-base_3.4.6-6ubuntu3_amd64.deb
+
+         sudo dpkg --force-depends -i gcc-3.4-base_3.4.6-6ubuntu3_amd64.deb
+
+ 
+
+    (2)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/gcc-3.4_3.4.6-6ubuntu3_amd64.deb
+
+         sudo dpkg --force-depends -i gcc-3.4_3.4.6-6ubuntu3_amd64.deb 
+
+ 
+
+    (3)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/cpp-3.4_3.4.6-6ubuntu3_amd64.deb
+
+         sudo dpkg --force-depends -i cpp-3.4_3.4.6-6ubuntu3_amd64.deb 
+
+ 
+
+    (4)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/g++-3.4_3.4.6-6ubuntu3_amd64.deb
+  
+         sudo dpkg --force-depends -i g++-3.4_3.4.6-6ubuntu3_amd64.deb
+
+ 
+
+    (5)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/libstdc++6-dev_3.4.6-6ubuntu3_amd64.deb
+
+         sudo dpkg --force-depends -i libstdc++6-dev_3.4.6-6ubuntu3_amd64.deb
+
+ 
+
+    (6)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/g77-3.4_3.4.6-6ubuntu3_amd64.deb
+
+         sudo dpkg --force-depends -i g77-3.4_3.4.6-6ubuntu3_amd64.deb
+
+ 
+
+    (7)、sudo wget http://old-releases.ubuntu.com/ubuntu/pool/universe/g/gcc-3.4/libg2c0-dev_3.4.6-6ubuntu3_amd64.deb
+
+         sudo dpkg --force-depends -i libg2c0-dev_3.4.6-6ubuntu3_amd64.deb
+
+二、配置软连接，并将其设置到gcc-3.4版本。
+
+    (1)、sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-3.4 30
+
+    (2)、sudo update-alternatives --config gcc
+    
+三、安装完成，查看对应的gcc版本
+
+    命令： gcc -v 
+    效果显示： gcc version 3.4.6 (Ubuntu 3.4.6-6ubuntu3)
