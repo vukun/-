@@ -1,2 +1,7 @@
 1、--Linux下卸载软件、
+
      命令：sudo yum autoremove 软件名称
+     
+2、--Linux清除缓存
+  
+     命令：echo 3 > /proc/sys/vm/drop_caches
